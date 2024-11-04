@@ -1,6 +1,5 @@
 package com.wellsfargo.counselor.entity;
 
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,7 +9,7 @@ import jakarta.persistence.Id;
 public class Advisor {
 
     @Id
-    @GeneratedValue()
+    @GeneratedValue
     private long advisorId;
 
     @Column(nullable = false)
